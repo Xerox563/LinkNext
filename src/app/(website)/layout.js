@@ -3,6 +3,12 @@ import { Lato } from "next/font/google";
 import "../globals.css";
 import Footer from "./Comp/Footer";
 import Review from "./Comp/Review";
+import Banner from "./Comp/Banner";
+import MoveCard from "./Comp/MoveCard";
+import Frequent from "./Comp/Frequent";
+import Steps from "./Comp/Steps";
+import Final from "./Comp/Final";
+import Gallery from "./Comp/Gallery";
 
 const lato = Lato({ subsets: ["latin"], weight: ["400", "700"] });
 
@@ -17,8 +23,15 @@ export default function RootLayout({ children }) {
       <body className={lato.className}>
         <main>
           <Header />
-          <div className="max-w-4xl mx-auto p-6">{children}</div>
-          <Review />
+          <div className="max-w-4xl mx-auto p-3">{children}</div>
+
+          <Banner />
+          <Gallery />
+          <MoveCard />
+
+          <Frequent />
+          <Final />
+
           <Footer />
         </main>
       </body>
