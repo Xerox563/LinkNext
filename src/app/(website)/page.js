@@ -19,6 +19,7 @@ export default async function Home() {
         </div>
         <HeroForm user={session?.user} />
       </section>
+      
     </main>
   );
 }

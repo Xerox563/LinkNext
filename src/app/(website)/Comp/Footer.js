@@ -66,7 +66,7 @@ const Footer = () => {
             </a>
           </div>
           <p class="mt-8 text-base leading-6 text-center text-gray-400">
-            © 2024 amit, Inc. All rights reserved.
+            © 2024 Amit, Inc. All rights reserved.
           </p>
         </div>
       </section>
