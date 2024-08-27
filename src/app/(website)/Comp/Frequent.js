@@ -1,7 +1,3 @@
-"use client";
-import { useEffect } from "react";
-import AOS from "aos";
-import "aos/dist/aos.css";
 const Frequent = () => {
   return (
     <div className="bg-blue-300" data-aos="slide-up">
