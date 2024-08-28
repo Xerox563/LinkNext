@@ -11,8 +11,8 @@ const Banner = () => {
             <h1 className="text-3xl font-extrabold sm:text-5xl">
               Create and Customize
               <strong className="font-extrabold text-red-700 sm:block">
-                {" "}
-                Your LinkNest in Minutes! 🚀.{" "}
+               
+                Your LinkNest in Minutes! 🚀.
               </strong>
             </h1>
 

@@ -6,8 +6,8 @@ import "aos/dist/aos.css";
 const Footer = () => {
   return (
     <div>
-      <section class="bg-blue-600" data-aos="fade-up">
-        <div class="max-w-screen-xl px-4 py-12 centre mx-auto space-y-8 overflow-hidden sm:px-6 lg:px-8">
+      <section className="bg-blue-600" data-aos="fade-up">
+        <div className="max-w-screen-xl px-4 py-12 centre mx-auto space-y-8 overflow-hidden sm:px-6 lg:px-8">
           <div className="bg-gray flex items-center justify-center">
             <h1 className="text-4xl font-bold text-gray-600 animate-hover">
               Keep in Touch
@@ -16,11 +16,11 @@ const Footer = () => {
           <div class="flex justify-center mt-8 space-x-6">
             <a
               href="https://www.instagram.com/_just._jack_/"
-              class="text-gray-400 hover:text-gray-500"
+              className="text-gray-400 hover:text-gray-500"
             >
               <span class="sr-only">Instagram</span>
               <svg
-                class="w-6 h-6"
+                className="w-6 h-6"
                 aria-hidden="true"
                 fill="currentColor"
                 viewBox="0 0 24 24"
@@ -34,11 +34,11 @@ const Footer = () => {
             </a>
             <a
               href="https://www.linkedin.com/in/amit-gangwar-a63174250/"
-              class="text-gray-400 hover:text-gray-500"
+              className="text-gray-400 hover:text-gray-500"
             >
-              <span class="sr-only">LinkedIn</span>
+              <span className="sr-only">LinkedIn</span>
               <svg
-                class="w-6 h-6"
+                className="w-6 h-6"
                 aria-hidden="true"
                 fill="currentColor"
                 viewBox="0 0 24 24"
@@ -48,11 +48,11 @@ const Footer = () => {
             </a>
             <a
               href="https://github.com/Xerox563"
-              class="text-gray-400 hover:text-gray-500"
+              className="text-gray-400 hover:text-gray-500"
             >
-              <span class="sr-only">GitHub</span>
+              <span className="sr-only">GitHub</span>
               <svg
-                class="w-6 h-6"
+                className="w-6 h-6"
                 aria-hidden="true"
                 fill="currentColor"
                 viewBox="0 0 24 24"
@@ -65,7 +65,7 @@ const Footer = () => {
               </svg>
             </a>
           </div>
-          <p class="mt-8 text-base leading-6 text-center text-gray-400">
+          <p className="mt-8 text-base leading-6 text-center text-gray-400">
             © 2024 Amit, Inc. All rights reserved.
           </p>
         </div>

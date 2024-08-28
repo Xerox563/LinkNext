@@ -32,7 +32,7 @@ const Frequent = () => {
 
           <p className="mt-4 leading-relaxed text-gray-700">
             To add new links, log in to your LinkNest account, go to your
-            dashboard, and click on "Add New Link." You can then customize the
+            dashboard, and click on Add New Link. You can then customize the
             link title and URL.
           </p>
         </details>
